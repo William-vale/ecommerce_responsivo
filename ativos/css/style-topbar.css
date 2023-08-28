@@ -1,0 +1,103 @@
+@import url(style-global.css);
+
+.topbar-section {
+    padding: 8px 0;
+}
+
+.topbar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.topbar-translate {
+    position: relative;
+}
+
+.topbar-translate-toggle {
+    background: none;
+    border: none;
+    padding-right: 16px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTExLjk5OTcgMTMuMTcxNEwxNi45NDk1IDguMjIxNjhMMTguMzYzNyA5LjYzNTg5TDExLjk5OTcgMTUuOTk5OUw1LjYzNTc0IDkuNjM1ODlMNy4wNDk5NiA4LjIyMTY4TDExLjk5OTcgMTMuMTcxNFoiPjwvcGF0aD48L3N2Zz4=);
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.topbar-translate-toggle > img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.topbar-translate-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 100px;
+    width: 100%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .1);
+    border-radius: 6px;
+    padding: 6px 0;
+    display: none;
+}
+
+.topbar-translate-dropdown.active{
+    display: block;
+    background-color: var(--branco);
+    z-index: 20;
+}
+
+.topbar-translate-dropdown > *{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: var(--preto);    
+    font-size: calc(1.2*var(--h6));
+}
+
+.topbar-translate-dropdown > *:hover {
+    background: var(--cinza1);
+}
+
+.topbar-link {
+    display: flex;
+    align-items: center;
+}
+
+.topbar-link a{
+    text-decoration: none;
+    color: var(--preto);
+    margin-left: 24px;
+    font-size: calc(1.2*var(--h6));
+    font-weight: 500;
+    transition: color .2s;
+}
+
+.topbar-link a:hover{
+    color: var(--azul1);
+}
+
+@media screen and (max-device-width: 425px) { /* Mobile */
+    .topbar-section {
+        display: none;
+    }
+    
+    .topbar-section .container {
+        padding: 0 30px;
+    }
+
+}
+
+@media screen and (max-device-width: 375px) {
+    .topbar-section {
+        width: 103vw;
+    }
+}
+
+@media screen and (max-device-width: 320px) {
+    .topbar-section {
+        width: 120vw;
+    }
+}

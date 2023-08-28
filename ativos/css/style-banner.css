@@ -1,0 +1,64 @@
+@import url(style-global.css);
+
+.banner-section {
+    padding: 64px 0;
+}
+
+.banner-box {
+    text-align: center;
+    padding: 48px 32px;
+    border-radius: 12px;
+    background-image: linear-gradient(45deg, var(--azul2), var(--azul0));
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: var(--h2);
+    font-weight: 700;
+    color: var(--branco);
+    margin-bottom: 8px;
+}
+
+.banner-description {
+    line-height: 1.5;
+    color: var(--branco);
+    opacity: .8;
+    max-width: 720px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.btn-white {
+    background-color: var(--branco);
+    border: 1px solid var(--branco);
+    color: var(--azul2);
+}
+
+.btn-white:hover {
+    background-color: var(--cinza0);
+    border-color: var(--cinza1);
+    color: var(--cinza3);
+}
+
+@media screen and (max-device-width: 425px) {
+    .banner-section {
+        width: 102%;
+    }
+}
+
+@media screen and (max-device-width: 375px) {
+    .banner-section {
+        width: 120%;
+    }
+}
+
+@media screen and (max-device-width: 320px) {
+    .banner-section {
+        width: 140%;
+    }
+}

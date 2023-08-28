@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="ativos/css/style-global.css">
+        <link rel="stylesheet" href="ativos/css/style-topbar.css">
+        <link rel="stylesheet" href="ativos/css/style-navbar.css">
+        <link rel="stylesheet" href="ativos/css/style-navbar-menu.css">
+        <link rel="stylesheet" href="ativos/css/style-category.css">
+        <link rel="stylesheet" href="ativos/css/style-hero.css">
+        <link rel="stylesheet" href="ativos/css/style-features.css">
+        <link rel="stylesheet" href="ativos/css/style-product.css">
+        <link rel="stylesheet" href="ativos/css/style-banner.css">
+        <link rel="stylesheet" href="ativos/css/style-footer.css">
+
+        <title>Ecommerce | Landing Page</title>
+    </head>
+    
+    <body>
+        <!-- Inicio: TopBar -->
+        <section class="topbar-section">
+            <div class="container">
+                <div class="topbar-wrapper">
+                    <div class="topbar-translate">
+                        <button class="topbar-translate-toggle">
+                            <img src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeira-nacional-brasil.jpg" alt="">
+                        </button>
+                        <div class="topbar-translate-dropdown">
+                            <a href="">English</a>
+                            <a href="">Espanhol</a>
+                        </div>
+                    </div>
+                    <div class="topbar-link">
+                        <a href="#">Carrinho</a>
+                        <a href="#">Login</a>
+                        <a href="#">Cadastrar</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fim: TopBar -->
+
+        <!-- Inicio: Navbar -->
+        <nav>
+            <div class="container">
+                <div class="navbar-wrapper">
+                    <a href="#" class="navbar-logo">
+                        <i class="ri-shopping-cart-line"></i>
+                    </a>
+                    <form action="" class="navbar-form">
+                        <div class="navbar-form-group">
+                            <button class="navbar-form-close"><i class="ri-arrow-left-line"></i></button>
+                            <input type="search" class="navbar-form-input" placeholder="O que você está procurando?">
+                        </div>
+                        <button type="submit" class="navbar-form-submit">Pesquisar</button>
+                    </form>
+                    <div class="navbar-form-link">
+                        <a href="" class="nav-link-sm"><i class="ri-instagram-line"></i></a>
+                        <a href="" class="nav-link-sm"><i class="ri-whatsapp-line"></i></a>
+                        <a href="" class="nav-link-sm"><i class="ri-phone-line"></i></a>
+                        <div class="navbar-divider nav-link-sm"></div>
+                        <a href="" class="navbar-link-cart"><i class="ri-shopping-cart-2-line"></i> <span>8</span> </a>
+                        <a href="" class="navbar-link-toggle navbar-link-lg"><i class="ri-menu-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="navbar-menu">
+            <div class="navbar-menu-header">
+                <div class="navbar-menu-header-titulo">Menu</div>
+                <button type="button" class="navbar-menu-header-close">&times;</button>
+            </div>
+            <div class="navbar-menu-body">
+                <div class="navbar-menu-buttons">
+                    <a href="#" class="btn btn-blue">Login</a>
+                    <a href="#" class="btn btn-outline-blue">Cadastrar</a>
+                </div>
+                <ul class="navbar-menu-link">
+                    <a href="#"><i class="ri-heart-line"></i> Carrinho</a>
+                    <a href="#"><i class="ri-star-line"></i> Avaliações</a>
+                    <a href="#"><i class="ri-file-list-line"></i> Transações</a>
+                    <a href="#"><i class="ri-pencil-line"></i> Blog</a>
+                </ul>
+            </div>
+        </div>
+        <!-- Fim: Navbar -->
+
+        <!-- Início: Categoria  -->
+        <section class="category-section">
+            <div class="container">
+                <div class="category-wrapper">
+                    <button type="button" class="category-arrow prev hidden"><i class="ri-arrow-left-line"></i></button>
+                    <button type="button" class="category-arrow next"><i class="ri-arrow-right-line"></i></button>
+                    <div class="category-link">
+                        <a href="#">Roupas</a>
+                        <a href="#">Eletrônicos</a>
+                        <a href="#">Casa & Jardim</a>
+                        <a href="#">Saúde & Beleza</a>
+                        <a href="#">Esporte & Lazer</a>
+                        <a href="#">Brinquedos & Jogos</a>
+                        <a href="#">Pet Shop</a>
+                        <a href="#">Escritório & Escola</a>
+                        <a href="#">Automóveis</a>
+                        <a href="#">Roupas</a>
+                        <a href="#">Eletrônicos</a>
+                        <a href="#">Casa & Jardim</a>
+                        <a href="#">Saúde & Beleza</a>
+                        <a href="#">Esporte & Lazer</a>
+                        <a href="#">Brinquedos & Jogos</a>
+                        <a href="#">Pet Shop</a>
+                        <a href="#">Escritório & Escola</a>
+                        <a href="#">Automóveis</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fim: Categoria  -->
+        
+        <!-- Inicio: Hero -->
+        <header>
+            <div class="container">
+                <div class="hero-wrapper">
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="" class="hero-image active">
+                        <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=60" alt="" class="hero-image">
+                    </div>
+                    <div class="hero-item-wrapper">
+                        <div class="hero-item active">
+                            <div class="hero-item-title">Tênis Nike vermelho</div>
+                            <p class="hero-item-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                            <a href="" class="link-blue">Veja mais</a>
+                        </div>
+                        <div class="hero-item">
+                            <div class="hero-item-title">Bolsa da Gucci</div>
+                            <p class="hero-item-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                            <a href="" class="link-blue">Veja mais</a>
+                        </div>
+                        <div class="hero-item">
+                            <div class="hero-item-title">Fone de Ouvido Bluetoth</div>
+                            <p class="hero-item-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                            <a href="" class="link-blue">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Fim: Hero -->
+
+        <!-- Inicio: Features -->
+        <section class="features-section">
+            <div class="container">
+                <div class="features-wrapper">
+                    <div>
+                        <div class="features-item-title">Preços Acessíveis</div>
+                        <p class="features-item-description">Qualidade excepcional a um preço acessível - tornando o extraordinário ao alcance de todos.</p>
+                    </div>
+                    <div>
+                        <div class="features-item-title">Frete Grátis</div>
+                        <p class="features-item-description">Frete grátis e entrega rápida: Sua satisfação é nossa prioridade, por isso garantimos que seus produtos cheguem até você com agilidade e sem custos adicionais.</p>
+                    </div>
+                    <div>
+                        <div class="features-item-title">Reembolso sem complicação</div>
+                        <p class="features-item-description">Reembolso descomplicado: Se por algum motivo você não estiver satisfeito, nosso processo de reembolso é simples e rápido, garantindo sua tranquilidade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fim: Features -->
+
+        <!-- Inicio: Desconto Especial -->
+        <section class="product-section">
+            <div class="container">
+                <h2 class="section-title">Descontos Especiais</h2>
+                <div class="product-wrapper">
+                    <button type="button" class="product-arrow prev"><i class="ri-arrow-left-line"></i></button>
+                    <button type="button" class="product-arrow next"><i class="ri-arrow-right-line"></i></button>
+                    <div class="product-grid product-grid-scroller">
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-section">
+            <div class="container">
+                <div class="product-tab">
+                    <button type="button"  class="btn btn1 active">Destaques</button>
+                    <button type="button" class="btn btn2 ">Recomendados</button>
+                    <button type="button" class="btn btn3 ">Populares</button>
+                </div>
+                <div id="Destaques" class="btn-item1 shown">
+                    <div class="product-grid">
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Recomendados" class="btn-item2">
+                    <div class="product-grid">
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Populares" class="btn-item3">
+                    <div class="product-grid">
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-item-header">
+                                <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=60" alt="" class="product-item-image">
+                                <a href="" class="product-item-cart"><i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                            <div class="product-item-body">
+                                <div class="product-item-tag"><span>New</span></div>
+                                <a href="#" class="product-item-title">Bolsa da Gucci</a>
+                                <div class="product-item-price">R&dollar;10</div>
+                                <div class="product-item-desconto">
+                                    <span class="product-item-desconto-percent">50%</span>
+                                    <span class="product-item-desconto-price">R&dollar;20</span>
+                                </div>
+                                <div class="product-item-rating">
+                                    <i class="ri-star-fill"></i> 4.8
+                                    <span class="product-item-sold">(2k Vendido)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- Fim: Desconto Especial -->
+
+        <!-- Inicio: Banner -->
+        <section class="banner-section">
+            <div class="container">
+                <div class="banner-box">
+                    <h2 class="banner-title">Ganhe 50% de desconto com sua primeira compra!</h2>
+                    <p class="banner-description">Inscreva-se em nossa newsletter e receba 10% de desconto em seu primeiro pedido, além de acesso exclusivo a promoções de vendas e novos produtos</p>
+                    <a href="#" class="btn btn-white">Inscreva-se agora!</a>
+                </div>
+            </div>
+        </section>
+        <!-- Fim: Banner -->
+
+        <!-- Inicio: Footer -->
+        <footer>
+            <div class="container">
+                <p class="footer-text">Feito com &#10084; por <a href="">William do Vale</a>.</p>
+            </div>
+        </footer>
+        <!-- Fim: Footer -->
+
+    
+        <script src="ativos/js/script-topbar.js"></script>
+        <script src="ativos/js/script-navbar.js"></script>
+        <script src="ativos/js/script-category.js"></script>
+        <script src="ativos/js/script-hero.js"></script>
+        <script src="ativos/js/script-product.js"></script>
+    </body>
+</html>
