@@ -1,6 +1,6 @@
 # Ecommerce Responsivo
 
-Página de E-Commerce genérica para auxiliar a pequenas empresas criarem seu site
+Página de E-Commerce genérica para auxiliar a pequenas empresas criarem seu site (Ainda incompleto, em breve terminarei todas as partes)
 
 ## 🛠️ Construído com
 
